@@ -25,3 +25,11 @@ include:
   - board: nice_nano_v2
     shield: lily58_right
     artifact-name: lily58_right
+  - board: nice_nano_v2
+    shield: lily58_left
+    snippet: zmk-usb-logging
+    artifact-name: lily58_left_logging
+  - board: nice_nano_v2
+    shield: lily58_right
+    snippet: zmk-usb-logging
+    artifact-name: lily58_right_logging
