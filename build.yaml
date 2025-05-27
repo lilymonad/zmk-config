@@ -33,3 +33,7 @@ include:
     shield: lily58_right
     snippet: zmk-usb-logging
     artifact-name: lily58_right_logging
+  - board: nice_nano_v2
+    shield: tester_pro_micro
+    snippet: zmk-usb-logging
+    artifact-name: tester
