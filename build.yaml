@@ -34,6 +34,12 @@ include:
     snippet: zmk-usb-logging
     artifact-name: lily58_right_logging
   - board: nice_nano_v2
-    shield: tester_pro_micro
-    snippet: zmk-usb-logging
-    artifact-name: tester
+    shield: lily58_left
+    snippet: studio-rpc-usb-uart
+    artifact-name: lily58_left_studio
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: nice_nano_v2
+    shield: lily58_right
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: lily58_right_studio
